@@ -1,0 +1,42 @@
+[Sat May  2 15:11:55 2015] [info] Listening at "http://*:3000"
+[Sat May  2 15:12:04 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 15:12:04 2015] [debug] GET "/"
+[Sat May  2 15:12:04 2015] [debug] Routing to controller "Notes::Controller::Example" and action "welcome"
+[Sat May  2 15:12:04 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sat May  2 15:12:04 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 15:12:04 2015] [debug] 200 OK (0.003696s, 270.563/s)
+[Sat May  2 15:12:10 2015] [debug] GET "/"
+[Sat May  2 15:12:10 2015] [debug] Routing to controller "Notes::Controller::Example" and action "welcome"
+[Sat May  2 15:12:10 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sat May  2 15:12:10 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 15:12:10 2015] [debug] 200 OK (0.001849s, 540.833/s)
+[Sat May  2 15:28:21 2015] [debug] GET "/"
+[Sat May  2 15:28:21 2015] [debug] Routing to controller "Notes::Controller::Example" and action "welcome"
+[Sat May  2 15:28:21 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sat May  2 15:28:21 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 15:28:21 2015] [debug] 200 OK (0.001245s, 803.213/s)
+[Sat May  2 15:28:34 2015] [debug] GET "/index.html"
+[Sat May  2 15:28:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Sat May  2 15:28:34 2015] [debug] Template "not_found.html.ep" not found
+[Sat May  2 15:28:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 15:28:34 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 15:28:34 2015] [debug] 404 Not Found (0.018346s, 54.508/s)
+[Sat May  2 15:28:53 2015] [info] Listening at "http://*:3000"
+[Sat May  2 15:28:56 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 15:28:56 2015] [debug] GET "/"
+[Sat May  2 15:28:56 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 15:28:56 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 15:28:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 15:28:56 2015] [debug] 200 OK (0.006196s, 161.394/s)
+[Sat May  2 15:30:26 2015] [debug] GET "/"
+[Sat May  2 15:30:26 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 15:30:26 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 15:30:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 15:30:26 2015] [debug] 200 OK (0.001782s, 561.167/s)
+[Sat May  2 15:30:32 2015] [info] Listening at "http://*:3000"
+[Sat May  2 15:30:37 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 15:30:37 2015] [debug] GET "/"
+[Sat May  2 15:30:37 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 15:30:37 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 15:30:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 15:30:37 2015] [debug] 200 OK (0.005329s, 187.652/s)
