@@ -40,3 +40,258 @@
 [Sat May  2 15:30:37 2015] [debug] Rendering template "dashboard/index.html.ep"
 [Sat May  2 15:30:37 2015] [debug] Rendering template "layouts/default.html.ep"
 [Sat May  2 15:30:37 2015] [debug] 200 OK (0.005329s, 187.652/s)
+[Sat May  2 17:18:06 2015] [info] Listening at "http://*:3000"
+[Sat May  2 17:18:12 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 17:18:12 2015] [debug] GET "/"
+[Sat May  2 17:18:12 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 17:18:12 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 17:18:12 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 17:18:12 2015] [debug] 200 OK (0.005595s, 178.731/s)
+[Sat May  2 17:32:32 2015] [info] Listening at "http://*:3000"
+[Sat May  2 17:32:37 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 17:32:37 2015] [debug] GET "/"
+[Sat May  2 17:32:37 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 17:32:37 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 17:32:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 17:32:37 2015] [debug] 200 OK (0.007369s, 135.704/s)
+[Sat May  2 17:32:37 2015] [debug] GET "/css/dashboard.css"
+[Sat May  2 17:32:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Sat May  2 17:32:37 2015] [debug] Template "not_found.html.ep" not found
+[Sat May  2 17:32:37 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 17:32:37 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 17:32:37 2015] [debug] 404 Not Found (0.030680s, 32.595/s)
+[Sat May  2 17:33:40 2015] [debug] GET "/"
+[Sat May  2 17:33:40 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 17:33:40 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 17:33:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 17:33:40 2015] [debug] 200 OK (0.001863s, 536.769/s)
+[Sat May  2 20:13:13 2015] [info] Listening at "http://*:3000"
+[Sat May  2 20:14:14 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 20:14:14 2015] [debug] GET "/"
+[Sat May  2 20:14:14 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 20:14:14 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 20:14:14 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 20:14:14 2015] [debug] 200 OK (0.007232s, 138.274/s)
+[Sat May  2 20:15:43 2015] [info] Listening at "http://*:3000"
+[Sat May  2 20:15:46 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 20:15:46 2015] [debug] GET "/"
+[Sat May  2 20:15:46 2015] [error] Notes/Model/Document.pm did not return a true value at lib/Notes/Controller/Dashboard.pm line 3.
+BEGIN failed--compilation aborted at lib/Notes/Controller/Dashboard.pm line 3.
+Compilation failed in require at (eval 532) line 1.
+
+[Sat May  2 20:15:46 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 20:15:46 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 20:15:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 20:15:46 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 20:15:47 2015] [debug] 500 Internal Server Error (0.036674s, 27.267/s)
+[Sat May  2 20:16:20 2015] [info] Listening at "http://*:3000"
+[Sat May  2 20:16:25 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 20:16:25 2015] [debug] GET "/"
+[Sat May  2 20:16:25 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 20:16:25 2015] [error] Can't locate object method "new" via package "Document" (perhaps you forgot to load "Document"?) at lib/Notes/Controller/Dashboard.pm line 9.
+
+[Sat May  2 20:16:25 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 20:16:25 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 20:16:25 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 20:16:25 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 20:16:25 2015] [debug] 500 Internal Server Error (0.023766s, 42.077/s)
+[Sat May  2 20:17:49 2015] [info] Listening at "http://*:3000"
+[Sat May  2 20:17:51 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 20:17:51 2015] [debug] GET "/"
+[Sat May  2 20:17:51 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 20:17:51 2015] [error] Can't locate object method "new" via package "Document" (perhaps you forgot to load "Document"?) at lib/Notes/Controller/Dashboard.pm line 9.
+
+[Sat May  2 20:17:51 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 20:17:51 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 20:17:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 20:17:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 20:17:51 2015] [debug] 500 Internal Server Error (0.030334s, 32.966/s)
+[Sat May  2 20:17:54 2015] [debug] GET "/"
+[Sat May  2 20:17:54 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 20:17:54 2015] [error] Can't locate object method "new" via package "Document" (perhaps you forgot to load "Document"?) at lib/Notes/Controller/Dashboard.pm line 9.
+
+[Sat May  2 20:17:54 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 20:17:54 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 20:17:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 20:17:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 20:17:54 2015] [debug] 500 Internal Server Error (0.005943s, 168.265/s)
+[Sat May  2 21:00:27 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:00:31 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:00:31 2015] [debug] GET "/"
+[Sat May  2 21:00:31 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:00:31 2015] [error] Can't locate object method "new" via package "Document" (perhaps you forgot to load "Document"?) at lib/Notes/Controller/Dashboard.pm line 9.
+
+[Sat May  2 21:00:31 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:00:31 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:00:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:00:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:00:31 2015] [debug] 500 Internal Server Error (0.019561s, 51.122/s)
+[Sat May  2 21:01:24 2015] [debug] GET "/"
+[Sat May  2 21:01:24 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:01:24 2015] [error] Can't locate object method "new" via package "Document" (perhaps you forgot to load "Document"?) at lib/Notes/Controller/Dashboard.pm line 9.
+
+[Sat May  2 21:01:24 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:01:24 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:01:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:01:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:01:24 2015] [debug] 500 Internal Server Error (0.008441s, 118.469/s)
+[Sat May  2 21:01:28 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:01:31 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:01:31 2015] [debug] GET "/"
+[Sat May  2 21:01:31 2015] [error] Can't locate Notes/Model.pm in @INC (you may need to install the Notes::Model module) (@INC contains: lib /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.1 /usr/local/share/perl/5.20.1 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at lib/Notes/Controller/Dashboard.pm line 3.
+BEGIN failed--compilation aborted at lib/Notes/Controller/Dashboard.pm line 3.
+Compilation failed in require at (eval 532) line 1.
+
+[Sat May  2 21:01:31 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:01:31 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:01:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:01:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:01:31 2015] [debug] 500 Internal Server Error (0.023012s, 43.456/s)
+[Sat May  2 21:03:32 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:03:37 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:03:37 2015] [debug] GET "/"
+[Sat May  2 21:03:37 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:03:37 2015] [error] Can't locate object method "new" via package "Document" (perhaps you forgot to load "Document"?) at lib/Notes/Controller/Dashboard.pm line 9.
+
+[Sat May  2 21:03:37 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:03:37 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:03:37 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:03:37 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:03:37 2015] [debug] 500 Internal Server Error (0.037251s, 26.845/s)
+[Sat May  2 21:04:19 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:04:21 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:04:21 2015] [debug] GET "/"
+[Sat May  2 21:04:21 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:04:21 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 21:04:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 21:04:21 2015] [debug] 200 OK (0.006944s, 144.009/s)
+[Sat May  2 21:06:17 2015] [debug] GET "/"
+[Sat May  2 21:06:17 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:06:17 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:06:17 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:06:17 2015] [debug] 200 OK (0.001884s, 530.786/s)
+[Sat May  2 21:06:21 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:06:22 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:06:22 2015] [debug] GET "/"
+[Sat May  2 21:06:22 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:06:22 2015] [error] Can't call method "db" on an undefined value at lib/Notes/Model/Document.pm line 24.
+
+[Sat May  2 21:06:22 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:06:22 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:06:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:06:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:06:22 2015] [debug] 500 Internal Server Error (0.034438s, 29.038/s)
+[Sat May  2 21:06:59 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:07:09 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:07:09 2015] [debug] GET "/"
+[Sat May  2 21:07:09 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:07:09 2015] [error] Can't call method "model" on an undefined value at lib/Notes/Model/Document.pm line 24.
+
+[Sat May  2 21:07:09 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:07:09 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:07:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:07:09 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:07:09 2015] [debug] 500 Internal Server Error (0.029483s, 33.918/s)
+[Sat May  2 21:12:12 2015] [debug] GET "/"
+[Sat May  2 21:12:12 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:12:12 2015] [error] Can't call method "model" on an undefined value at lib/Notes/Model/Document.pm line 24.
+
+[Sat May  2 21:12:12 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:12:12 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:12:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:12:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:12:12 2015] [debug] 500 Internal Server Error (0.005823s, 171.733/s)
+[Sat May  2 21:12:28 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:12:32 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:12:32 2015] [debug] GET "/"
+[Sat May  2 21:12:32 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:12:32 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 21:12:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 21:12:32 2015] [debug] 200 OK (0.009943s, 100.573/s)
+[Sat May  2 21:13:59 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:14:00 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:14:00 2015] [debug] GET "/"
+[Sat May  2 21:14:00 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:14:00 2015] [error] Can't locate object method "model" via package "Notes::Model::Document" at lib/Notes/Model/Document.pm line 49.
+
+[Sat May  2 21:14:00 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May  2 21:14:00 2015] [debug] Template "exception.html.ep" not found
+[Sat May  2 21:14:00 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May  2 21:14:00 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May  2 21:14:00 2015] [debug] 500 Internal Server Error (0.025875s, 38.647/s)
+[Sat May  2 21:16:01 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:16:03 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:16:03 2015] [debug] GET "/"
+[Sat May  2 21:16:03 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:16:03 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 21:16:03 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 21:16:03 2015] [debug] 200 OK (0.085606s, 11.681/s)
+[Sat May  2 21:22:05 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:22:18 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:22:18 2015] [debug] GET "/"
+[Sat May  2 21:22:18 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:22:18 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 21:22:18 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 21:22:18 2015] [debug] 200 OK (0.010925s, 91.533/s)
+[Sat May  2 21:22:55 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:22:59 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:22:59 2015] [debug] GET "/"
+[Sat May  2 21:22:59 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:22:59 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 21:22:59 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 21:22:59 2015] [debug] 200 OK (0.011266s, 88.763/s)
+[Sat May  2 21:23:01 2015] [debug] GET "/"
+[Sat May  2 21:23:01 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:23:01 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:23:01 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:23:01 2015] [debug] 200 OK (0.002234s, 447.628/s)
+[Sat May  2 21:23:02 2015] [debug] GET "/"
+[Sat May  2 21:23:02 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:23:02 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:23:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:23:02 2015] [debug] 200 OK (0.002543s, 393.236/s)
+[Sat May  2 21:23:02 2015] [debug] GET "/"
+[Sat May  2 21:23:02 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:23:02 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:23:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:23:02 2015] [debug] 200 OK (0.002671s, 374.392/s)
+[Sat May  2 21:23:03 2015] [debug] GET "/"
+[Sat May  2 21:23:03 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:23:03 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:23:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:23:03 2015] [debug] 200 OK (0.002504s, 399.361/s)
+[Sat May  2 21:23:03 2015] [debug] GET "/"
+[Sat May  2 21:23:03 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:23:03 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:23:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:23:03 2015] [debug] 200 OK (0.003120s, 320.513/s)
+[Sat May  2 21:27:36 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:27:41 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:27:41 2015] [debug] GET "/"
+[Sat May  2 21:27:41 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:27:41 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 21:27:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 21:27:41 2015] [debug] 200 OK (0.009790s, 102.145/s)
+[Sat May  2 21:28:58 2015] [info] Listening at "http://*:3000"
+[Sat May  2 21:29:01 2015] [debug] Your secret passphrase needs to be changed
+[Sat May  2 21:29:01 2015] [debug] GET "/"
+[Sat May  2 21:29:01 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:29:01 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sat May  2 21:29:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May  2 21:29:01 2015] [debug] 200 OK (0.011222s, 89.111/s)
+[Sat May  2 21:29:03 2015] [debug] GET "/"
+[Sat May  2 21:29:03 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:29:03 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:29:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:29:03 2015] [debug] 200 OK (0.003841s, 260.349/s)
+[Sat May  2 21:29:04 2015] [debug] GET "/"
+[Sat May  2 21:29:04 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:29:04 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:29:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:29:04 2015] [debug] 200 OK (0.004416s, 226.449/s)
+[Sat May  2 21:29:05 2015] [debug] GET "/"
+[Sat May  2 21:29:05 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sat May  2 21:29:05 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sat May  2 21:29:05 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May  2 21:29:05 2015] [debug] 200 OK (0.002890s, 346.021/s)
+[Sat May  2 21:29:19 2015] [info] Listening at "http://*:3000"
