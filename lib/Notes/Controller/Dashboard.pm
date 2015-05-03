@@ -5,13 +5,12 @@ use Notes::Model::Document;
 # This action will render a template
 sub index {
   my $self = shift;
+  $self->render(path => '/');
+}
 
-  my $document = new Notes::Model::Document();
-  $document->title('teste');
-  $document->save($self);
-
-  # Render template "example/welcome.html.ep" with message
-  $self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
+sub directories {
+  my $self = shift;
+  $self->render(json => {path => $self->param('path')}, status => 200);
 }
 
 1;

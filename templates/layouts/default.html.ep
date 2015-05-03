@@ -57,5 +57,10 @@
   <script src="/js/underscore-min.js"></script>
   <script src="/js/backbone-min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
+
+  <script src="/js/models/document.js"></script>
+  <script src="/js/views/dashboard.js"></script>
+  <script src="/js/application.js"></script>
+
 </html>
 

@@ -48,9 +48,7 @@ sub save {
   my $self = shift;
   my $action = shift;
 
-  return $action->model('notes.documents')->insert(
-    {title => $self.title(), path => $self.path()}
-  );
+  return $action->model('notes.documents')->insert($self);
 }
 
 1;

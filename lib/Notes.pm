@@ -21,6 +21,7 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('dashboard#index');
+  $r->get('/directories')->to('dashboard#directories');
 }
 
 1;
