@@ -2,7 +2,6 @@ package Notes::Controller::Dashboard;
 use Mojo::Base 'Mojolicious::Controller';
 use Notes::Model::Document;
 
-# This action will render a template
 sub index {
   my $self = shift;
   $self->render(path => '/');
