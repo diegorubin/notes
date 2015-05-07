@@ -21,7 +21,11 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('dashboard#index');
-  $r->get('/directories')->to('dashboard#directories');
+
+  $r->get('/api/directories')->to('directories#index');
+
+  $r->post('/api/documents')->to('documents#create');
+
 }
 
 1;

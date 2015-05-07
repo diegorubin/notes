@@ -7,9 +7,4 @@ sub index {
   $self->render(path => '/');
 }
 
-sub directories {
-  my $self = shift;
-  $self->render(json => {path => $self->param('path')}, status => 200);
-}
-
 1;
