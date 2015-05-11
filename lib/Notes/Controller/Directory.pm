@@ -1,7 +1,7 @@
 package Notes::Controller::Directory;
-user Mojo::Base 'Mojolicious::Controller';
+use Mojo::Base 'Mojolicious::Controller';
 
-sub directories {
+sub index {
   my $self = shift;
   $self->render(json => {path => $self->param('path')}, status => 200);
 }

@@ -16,9 +16,13 @@ app.DashboardView = Backbone.View.extend({
     'click #add-document': 'addDocument'
   },
 
-  addFolder: function(e) {
+  addDocument: function(e) {
     e.preventDefault();
+    this.documentView();
+  },
 
+  addDirectory: function(e) {
+    e.preventDefault();
   },
 
   render: function() {
@@ -28,6 +32,24 @@ app.DashboardView = Backbone.View.extend({
     return this;
   },
 
-  renderDirectoryfunction(item) {
+  renderDirectory: function(item) {
+  },
+
+  documentView: function() {
+    $('.sidebar').hide();
+    $('#directory-content').hide();
+    $('#document-content').show();
+
+    var remove = [
+      'col-sm-9', 'col-sm-offset-3', 'col-md-10', 'col-md-offset-2'
+    ];
+
+    var add = ['col-sm-12', 'col-md-12'];
+
+    $.each(remove, function(index,klass) { $('.main').removeClass(klass); });
+    $.each(add, function(index,klass) { $('.main').addClass(klass); });
+  },
+
+  directoryView: function() {
   }
 });

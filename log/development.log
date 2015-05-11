@@ -372,3 +372,319 @@ Compilation failed in require at (eval 532) line 1.
 [Sun May  3 10:11:00 2015] [debug] Rendering template "dashboard/index.html.ep"
 [Sun May  3 10:11:00 2015] [debug] Rendering template "layouts/default.html.ep"
 [Sun May  3 10:11:00 2015] [debug] 200 OK (0.005909s, 169.233/s)
+[Sun May 10 17:47:22 2015] [info] Listening at "http://*:3000"
+[Sun May 10 17:47:53 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 17:47:53 2015] [debug] GET "/"
+[Sun May 10 17:47:53 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:47:53 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 17:47:53 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 17:47:53 2015] [debug] 200 OK (0.005968s, 167.560/s)
+[Sun May 10 17:49:03 2015] [debug] GET "/"
+[Sun May 10 17:49:03 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:49:03 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 17:49:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 17:49:03 2015] [debug] 200 OK (0.002161s, 462.749/s)
+[Sun May 10 17:49:04 2015] [debug] GET "/"
+[Sun May 10 17:49:04 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:49:04 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 17:49:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 17:49:04 2015] [debug] 200 OK (0.001460s, 684.932/s)
+[Sun May 10 17:49:04 2015] [debug] GET "/"
+[Sun May 10 17:49:04 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:49:04 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 17:49:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 17:49:04 2015] [debug] 200 OK (0.000631s, 1584.786/s)
+[Sun May 10 17:49:04 2015] [debug] GET "/"
+[Sun May 10 17:49:04 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:49:04 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 17:49:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 17:49:04 2015] [debug] 200 OK (0.000670s, 1492.537/s)
+[Sun May 10 17:54:04 2015] [info] Listening at "http://*:3000"
+[Sun May 10 17:54:08 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 17:54:08 2015] [debug] GET "/"
+[Sun May 10 17:54:08 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:54:08 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 17:54:08 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 17:54:08 2015] [debug] 200 OK (0.011019s, 90.752/s)
+[Sun May 10 17:55:00 2015] [info] Listening at "http://*:3000"
+[Sun May 10 17:55:01 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 17:55:01 2015] [debug] GET "/"
+[Sun May 10 17:55:01 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:55:01 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 17:55:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 17:55:01 2015] [debug] 200 OK (0.009723s, 102.849/s)
+[Sun May 10 17:55:02 2015] [debug] GET "/"
+[Sun May 10 17:55:02 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:55:02 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 17:55:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 17:55:02 2015] [debug] 200 OK (0.000640s, 1562.500/s)
+[Sun May 10 17:57:59 2015] [info] Listening at "http://*:3000"
+[Sun May 10 17:58:04 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 17:58:04 2015] [debug] GET "/"
+[Sun May 10 17:58:04 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 17:58:04 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 17:58:04 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 17:58:04 2015] [debug] 200 OK (0.004000s, 250.000/s)
+[Sun May 10 17:58:04 2015] [debug] GET "/api/documents"
+[Sun May 10 17:58:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 17:58:04 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 17:58:04 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 17:58:04 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 17:58:04 2015] [debug] 404 Not Found (0.017027s, 58.730/s)
+[Sun May 10 18:00:18 2015] [info] Listening at "http://*:3000"
+[Sun May 10 18:00:22 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 18:00:22 2015] [debug] GET "/"
+[Sun May 10 18:00:22 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 18:00:22 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 18:00:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 18:00:22 2015] [debug] 200 OK (0.005917s, 169.005/s)
+[Sun May 10 18:00:22 2015] [debug] GET "/api/documents"
+[Sun May 10 18:00:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:00:22 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:00:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:00:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:00:22 2015] [debug] 404 Not Found (0.016679s, 59.956/s)
+[Sun May 10 18:00:40 2015] [info] Listening at "http://*:3000"
+[Sun May 10 18:00:52 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 18:00:52 2015] [debug] GET "/"
+[Sun May 10 18:00:52 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 18:00:52 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 18:00:52 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 18:00:52 2015] [debug] 200 OK (0.006811s, 146.821/s)
+[Sun May 10 18:00:52 2015] [debug] GET "/api/documents"
+[Sun May 10 18:00:52 2015] [debug] Controller "Notes::Documents" does not exist
+[Sun May 10 18:00:52 2015] [debug] Template "documents/index.html.ep" not found
+[Sun May 10 18:00:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:00:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:00:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:00:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:00:52 2015] [debug] 404 Not Found (0.027012s, 37.021/s)
+[Sun May 10 18:01:00 2015] [debug] GET "/api/documents"
+[Sun May 10 18:01:00 2015] [debug] Controller "Notes::Documents" does not exist
+[Sun May 10 18:01:00 2015] [debug] Template "documents/index.html.ep" not found
+[Sun May 10 18:01:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:01:00 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:01:00 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:01:00 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:01:00 2015] [debug] 404 Not Found (0.008475s, 117.994/s)
+[Sun May 10 18:01:32 2015] [debug] GET "/api/directories"
+[Sun May 10 18:01:32 2015] [debug] Controller "Notes::Directories" does not exist
+[Sun May 10 18:01:32 2015] [debug] Template "directories/index.html.ep" not found
+[Sun May 10 18:01:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:01:32 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:01:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:01:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:01:32 2015] [debug] 404 Not Found (0.009023s, 110.828/s)
+[Sun May 10 18:04:21 2015] [info] Listening at "http://*:3000"
+[Sun May 10 18:04:31 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 18:04:31 2015] [debug] GET "/api/directories"
+[Sun May 10 18:04:31 2015] [debug] Routing to controller "Notes::Controller::Directory" and action "index"
+[Sun May 10 18:04:31 2015] [debug] 200 OK (0.001064s, 939.850/s)
+[Sun May 10 18:04:42 2015] [debug] GET "/"
+[Sun May 10 18:04:42 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 18:04:42 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 18:04:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 18:04:42 2015] [debug] 200 OK (0.005406s, 184.980/s)
+[Sun May 10 18:04:43 2015] [debug] GET "/api/documents"
+[Sun May 10 18:04:43 2015] [error] Global symbol "$self" requires explicit package name at lib/Notes/Controller/Document.pm line 6.
+syntax error at lib/Notes/Controller/Document.pm line 14, near "if $document"
+syntax error at lib/Notes/Controller/Document.pm line 16, near "} else"
+Global symbol "$self" requires explicit package name at lib/Notes/Controller/Document.pm line 17.
+Compilation failed in require at (eval 536) line 1.
+
+[Sun May 10 18:04:43 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 10 18:04:43 2015] [debug] Template "exception.html.ep" not found
+[Sun May 10 18:04:43 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:04:43 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:04:43 2015] [debug] 500 Internal Server Error (0.017532s, 57.039/s)
+[Sun May 10 18:05:00 2015] [debug] GET "/api/documents"
+[Sun May 10 18:05:00 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 18:05:00 2015] [debug] Action not found in controller
+[Sun May 10 18:05:00 2015] [debug] Template "document/index.html.ep" not found
+[Sun May 10 18:05:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:05:00 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:05:00 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:05:00 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:05:00 2015] [debug] 404 Not Found (0.005008s, 199.681/s)
+[Sun May 10 18:05:39 2015] [info] Listening at "http://*:3000"
+[Sun May 10 18:06:03 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 18:06:03 2015] [debug] GET "/api/documents"
+[Sun May 10 18:06:03 2015] [error] Global symbol "$self" requires explicit package name at lib/Notes/Controller/Document.pm line 6.
+syntax error at lib/Notes/Controller/Document.pm line 14, near "if $document"
+syntax error at lib/Notes/Controller/Document.pm line 16, near "} else"
+Global symbol "$self" requires explicit package name at lib/Notes/Controller/Document.pm line 17.
+Compilation failed in require at (eval 532) line 1.
+
+[Sun May 10 18:06:03 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 10 18:06:03 2015] [debug] Template "exception.html.ep" not found
+[Sun May 10 18:06:03 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:06:03 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:06:03 2015] [debug] 500 Internal Server Error (0.021379s, 46.775/s)
+[Sun May 10 18:06:33 2015] [debug] GET "/api/documents"
+[Sun May 10 18:06:33 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 18:06:33 2015] [debug] Action not found in controller
+[Sun May 10 18:06:33 2015] [debug] Template "document/index.html.ep" not found
+[Sun May 10 18:06:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:06:33 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:06:33 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:06:33 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:06:33 2015] [debug] 404 Not Found (0.004666s, 214.316/s)
+[Sun May 10 18:06:34 2015] [debug] GET "/api/documents"
+[Sun May 10 18:06:34 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 18:06:34 2015] [debug] Action not found in controller
+[Sun May 10 18:06:34 2015] [debug] Template "document/index.html.ep" not found
+[Sun May 10 18:06:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:06:34 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:06:34 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:06:34 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:06:34 2015] [debug] 404 Not Found (0.012957s, 77.178/s)
+[Sun May 10 18:06:43 2015] [info] Listening at "http://*:3000"
+[Sun May 10 18:06:46 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 18:06:46 2015] [debug] GET "/api/documents"
+[Sun May 10 18:06:46 2015] [error] syntax error at lib/Notes/Controller/Document.pm line 15, near "if $document"
+syntax error at lib/Notes/Controller/Document.pm line 17, near "} else"
+Global symbol "$self" requires explicit package name at lib/Notes/Controller/Document.pm line 18.
+Compilation failed in require at (eval 532) line 1.
+
+[Sun May 10 18:06:46 2015] [debug] Template "exception.development.html.ep" not found
+[Sun May 10 18:06:46 2015] [debug] Template "exception.html.ep" not found
+[Sun May 10 18:06:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:06:46 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:06:46 2015] [debug] 500 Internal Server Error (0.018496s, 54.066/s)
+[Sun May 10 18:08:26 2015] [info] Listening at "http://*:3000"
+[Sun May 10 18:08:31 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 18:08:31 2015] [debug] GET "/api/documents"
+[Sun May 10 18:08:31 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 18:08:31 2015] [debug] Template "document/index.html.ep" not found
+[Sun May 10 18:08:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:08:31 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:08:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:08:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:08:31 2015] [debug] 404 Not Found (0.018931s, 52.823/s)
+[Sun May 10 18:08:35 2015] [debug] GET "/api/documents"
+[Sun May 10 18:08:35 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 18:08:35 2015] [debug] Template "document/index.html.ep" not found
+[Sun May 10 18:08:35 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:08:35 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:08:35 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:08:35 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:08:35 2015] [debug] 404 Not Found (0.005675s, 176.211/s)
+[Sun May 10 18:09:07 2015] [info] Listening at "http://*:3000"
+[Sun May 10 18:09:24 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 18:09:24 2015] [debug] GET "/api/documents"
+[Sun May 10 18:09:24 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 18:09:24 2015] [debug] Template "document/index.html.ep" not found
+[Sun May 10 18:09:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 18:09:24 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 18:09:24 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 18:09:24 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 18:09:24 2015] [debug] 404 Not Found (0.015325s, 65.253/s)
+[Sun May 10 19:51:00 2015] [debug] GET "/api/documents"
+[Sun May 10 19:51:00 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 19:51:00 2015] [debug] Template "document/index.html.ep" not found
+[Sun May 10 19:51:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun May 10 19:51:00 2015] [debug] Template "not_found.html.ep" not found
+[Sun May 10 19:51:00 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun May 10 19:51:00 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun May 10 19:51:00 2015] [debug] 404 Not Found (0.007880s, 126.904/s)
+[Sun May 10 19:51:32 2015] [debug] GET "/api/directories"
+[Sun May 10 19:51:32 2015] [debug] Routing to controller "Notes::Controller::Directory" and action "index"
+[Sun May 10 19:51:32 2015] [debug] 200 OK (0.001663s, 601.323/s)
+[Sun May 10 19:53:05 2015] [info] Listening at "http://*:3000"
+[Sun May 10 19:53:07 2015] [debug] Your secret passphrase needs to be changed
+[Sun May 10 19:53:07 2015] [debug] GET "/api/documents"
+[Sun May 10 19:53:07 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 19:53:07 2015] [debug] 200 OK (0.001794s, 557.414/s)
+[Sun May 10 19:54:55 2015] [debug] GET "/api/documents"
+[Sun May 10 19:54:55 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 19:54:55 2015] [debug] 200 OK (0.000397s, 2518.892/s)
+[Sun May 10 19:58:12 2015] [debug] GET "/"
+[Sun May 10 19:58:12 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 19:58:12 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Sun May 10 19:58:12 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun May 10 19:58:12 2015] [debug] 200 OK (0.009421s, 106.146/s)
+[Sun May 10 19:58:12 2015] [debug] GET "/api/documents"
+[Sun May 10 19:58:12 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 19:58:12 2015] [debug] 200 OK (0.000429s, 2331.002/s)
+[Sun May 10 20:00:21 2015] [debug] GET "/"
+[Sun May 10 20:00:21 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 20:00:21 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 20:00:21 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 20:00:21 2015] [debug] 200 OK (0.001340s, 746.269/s)
+[Sun May 10 20:00:22 2015] [debug] GET "/api/documents"
+[Sun May 10 20:00:22 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 20:00:22 2015] [debug] 200 OK (0.000510s, 1960.784/s)
+[Sun May 10 20:02:12 2015] [debug] GET "/"
+[Sun May 10 20:02:12 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 20:02:12 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 20:02:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 20:02:12 2015] [debug] 200 OK (0.000904s, 1106.195/s)
+[Sun May 10 20:02:12 2015] [debug] GET "/api/documents"
+[Sun May 10 20:02:12 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 20:02:12 2015] [debug] 200 OK (0.000342s, 2923.977/s)
+[Sun May 10 20:02:30 2015] [debug] GET "/"
+[Sun May 10 20:02:30 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 20:02:30 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 20:02:30 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 20:02:30 2015] [debug] 200 OK (0.000975s, 1025.641/s)
+[Sun May 10 20:02:31 2015] [debug] GET "/api/documents"
+[Sun May 10 20:02:31 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 20:02:31 2015] [debug] 200 OK (0.000384s, 2604.167/s)
+[Sun May 10 20:03:15 2015] [debug] GET "/"
+[Sun May 10 20:03:15 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 20:03:15 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 20:03:15 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 20:03:15 2015] [debug] 200 OK (0.001705s, 586.510/s)
+[Sun May 10 20:03:16 2015] [debug] GET "/api/documents"
+[Sun May 10 20:03:16 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 20:03:16 2015] [debug] 200 OK (0.000352s, 2840.909/s)
+[Sun May 10 20:04:40 2015] [debug] GET "/"
+[Sun May 10 20:04:40 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 20:04:40 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 20:04:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 20:04:40 2015] [debug] 200 OK (0.000708s, 1412.429/s)
+[Sun May 10 20:04:40 2015] [debug] GET "/api/documents"
+[Sun May 10 20:04:40 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 20:04:40 2015] [debug] 200 OK (0.000336s, 2976.190/s)
+[Sun May 10 21:24:40 2015] [debug] GET "/"
+[Sun May 10 21:24:40 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 21:24:40 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 21:24:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 21:24:40 2015] [debug] 200 OK (0.000625s, 1600.000/s)
+[Sun May 10 21:24:41 2015] [debug] GET "/api/documents"
+[Sun May 10 21:24:41 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 21:24:41 2015] [debug] 200 OK (0.000475s, 2105.263/s)
+[Sun May 10 21:30:56 2015] [debug] GET "/"
+[Sun May 10 21:30:56 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Sun May 10 21:30:56 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Sun May 10 21:30:56 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun May 10 21:30:56 2015] [debug] 200 OK (0.000931s, 1074.114/s)
+[Sun May 10 21:30:57 2015] [debug] GET "/api/documents"
+[Sun May 10 21:30:57 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Sun May 10 21:30:57 2015] [debug] 200 OK (0.000467s, 2141.328/s)
+[Mon May 11 07:33:46 2015] [debug] GET "/"
+[Mon May 11 07:33:46 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Mon May 11 07:33:46 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Mon May 11 07:33:46 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon May 11 07:33:46 2015] [debug] 200 OK (0.000605s, 1652.893/s)
+[Mon May 11 07:33:47 2015] [debug] GET "/api/documents"
+[Mon May 11 07:33:47 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Mon May 11 07:33:47 2015] [debug] 200 OK (0.000347s, 2881.844/s)
+[Mon May 11 07:36:27 2015] [debug] GET "/"
+[Mon May 11 07:36:27 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Mon May 11 07:36:27 2015] [debug] Rendering cached template "dashboard/index.html.ep"
+[Mon May 11 07:36:27 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon May 11 07:36:27 2015] [debug] 200 OK (0.000626s, 1597.444/s)
+[Mon May 11 07:36:28 2015] [debug] GET "/api/documents"
+[Mon May 11 07:36:28 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Mon May 11 07:36:28 2015] [debug] 200 OK (0.000351s, 2849.003/s)
+[Mon May 11 07:40:50 2015] [info] Listening at "http://*:3000"
+[Mon May 11 07:40:59 2015] [debug] Your secret passphrase needs to be changed
+[Mon May 11 07:40:59 2015] [debug] GET "/"
+[Mon May 11 07:40:59 2015] [debug] Routing to controller "Notes::Controller::Dashboard" and action "index"
+[Mon May 11 07:40:59 2015] [debug] Rendering template "dashboard/index.html.ep"
+[Mon May 11 07:40:59 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon May 11 07:40:59 2015] [debug] 200 OK (0.007080s, 141.243/s)
+[Mon May 11 07:41:00 2015] [debug] GET "/api/documents"
+[Mon May 11 07:41:00 2015] [debug] Routing to controller "Notes::Controller::Document" and action "index"
+[Mon May 11 07:41:00 2015] [debug] 200 OK (0.000932s, 1072.961/s)

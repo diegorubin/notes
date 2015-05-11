@@ -1,4 +1,15 @@
 % layout 'default';
 % title 'Notes';
-<h1 class="page-header">Diretório Atual: <%= $path %></h1>
+
+<div id="directory-content">
+  <h1 class="page-header">Diretório Atual: <%= $path %></h1>
+  
+  <div id="directory-commands">
+    <a id="add-directory" link="#" class="btn btn-primary">Add Directory</a>
+    <a id="add-document" link="#" class="btn btn-primary">Add Document</a>
+  </div>
+</div>
+
+<div id="document-content" style="display:none;">
+</div>
 
