@@ -14,6 +14,15 @@ sub new {
   return bless $self, $class;
 }
 
+sub all {
+  my $this = shift;
+  my $class = ref($this) || $this;
+
+  my $action = shift;
+
+  return $action->model('notes.documents')->find({});
+}
+
 sub from_path {
   my $this = shift;
   my $class = ref($this) || $this;
@@ -44,11 +53,16 @@ sub version {
   return $self->{version};
 }
 
+sub to_hash {
+  my $self = shift;
+  return {title => $self->{title}, path => $self->{path}};
+}
+
 sub save {
   my $self = shift;
   my $action = shift;
 
-  return $action->model('notes.documents')->insert($self);
+  return $action->model('notes.documents')->insert($self->to_hash());
 }
 
 1;
