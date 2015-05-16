@@ -1,5 +1,5 @@
 Notes
 =====
 
-Mojolicious + Backbone application.
+Python Flask application.
 
