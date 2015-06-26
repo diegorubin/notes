@@ -13,7 +13,7 @@ import os
 from flask import Flask
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='')
 
 app.config.update(dict(
     DEBUG=True,
@@ -22,7 +22,10 @@ app.config.update(dict(
 app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 
 from services import documents
+import client
+
 app.register_blueprint(documents.mod)
+app.register_blueprint(client.mod)
 
 if __name__ == '__main__':
     app.run()
