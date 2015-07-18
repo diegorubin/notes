@@ -1,7 +1,7 @@
 from repository import get_connection
 import pdb
 
-class Document():
+class Note():
     def __init__(self, attributes=dict()):
         self.title = attributes.get('title') or ''
         self.body = attributes.get('body') or ''
@@ -13,11 +13,11 @@ class Document():
         try:
             db = get_connection()
             if "_id" in dir(self):
-                db.documents.update({'_id' : ObjectId(self._id)},
+                db.notes.update({'_id' : ObjectId(self._id)},
                                     {"$set" :self.__dict__})
             else:
 
-                self._id = db.documents.insert(self.__dict__)
+                self._id = db.notes.insert(self.__dict__)
         except:
             result = False
 
@@ -33,13 +33,13 @@ class Document():
 
         return json
 
-def find_document(uid):
+def find_note(uid):
 
-    d = Document()
+    d = Note()
 
     try:
         db = get_connection()
-        obj = db.documents.find({"_id" : ObjectId(uid)})
+        obj = db.notes.find({"_id" : ObjectId(uid)})
 
         d.__dict__ = obj[0]
         d.__dict__["_id"] = uid
@@ -48,25 +48,25 @@ def find_document(uid):
     except:
         return None
 
-def all_documents(**kwargs):
-    documents = []
+def all_notes(**kwargs):
+    notes = []
 
     try:
         db = get_connection()
-        cursor = db.documents.find()
+        cursor = db.notes.find()
 
-        for document in cursor:
+        for note in cursor:
 
             if kwargs.get('type') == 'dict':
-                document['_id'] = str(document['_id'])
-                documents.append(document)
+                note['_id'] = str(note['_id'])
+                notes.append(note)
             else:
-                d = Document()
-                d.__dict__ = document
-                documents.append(d)
+                d = Note()
+                d.__dict__ = note
+                notes.append(d)
 
     except:
         pass
 
-    return documents
+    return notes
 
