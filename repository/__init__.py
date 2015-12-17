@@ -9,7 +9,7 @@ def get_connection():
 
     if db == None:
         print "Conectando ao Mongo"
-        connection = Connection('localhost')
+        connection = Connection('NOTES_MONGO_HOST')
 
         try:
             env = os.environ["NOTES_ENV"]

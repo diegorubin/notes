@@ -1,0 +1,4 @@
+flask==0.10.1
+Flask-OAuth==0.12
+pymongo==2.8
+fabric==1.10.2

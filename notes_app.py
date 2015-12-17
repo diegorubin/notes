@@ -21,12 +21,14 @@ app.config.update(dict(
 ))
 app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 
-from services import notes, versions
+from services import notes, versions, auth, healthcheck
 import client
 
 app.register_blueprint(notes.mod)
 app.register_blueprint(versions.mod)
 app.register_blueprint(client.mod)
+app.register_blueprint(auth.mod)
+app.register_blueprint(healthcheck.mod)
 
 if __name__ == '__main__':
     app.run()

@@ -1,9 +1,9 @@
 from flask import Blueprint, Response, jsonify, request
-from repository.document import Document, all_documents
+from repository.note import Note, all_notes
 
 mod = Blueprint('verions', __name__)
 
-@mod.route('/documents/<id>/versions', methods=['GET'])
-def versions(document_id):
+@mod.route('/notes/<id>/versions', methods=['GET'])
+def versions(note_id):
     pass
 
